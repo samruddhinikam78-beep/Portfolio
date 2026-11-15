@@ -3,116 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Samruddhi Vitthal Nikam | Portfolio</title>
+
+<title>Samruddhi Nikam | Portfolio</title>
 
 <style>
-
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, sans-serif;
-scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-background: #F8F7FC;
-color: #454052;
+    background: #C8E6EE;
+    color: #24434D;
 }
 
 .home {
-min-height: 100vh;
-display: flex;
-align-items: center;
-padding: 50px 10%;
-background: linear-gradient(135deg, #EEE8F7, #F8F7FC);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    background: linear-gradient(135deg, #C8E6EE, #EAF8FB, #B5DDE7);
 }
 
 .home-content {
-max-width: 750px;
-animation: fadeUp 1.3s ease;
+    max-width: 750px;
+    animation: fadeUp 1.3s ease;
 }
 
 .home h3 {
-color: #9678B8;
-font-size: 25px;
-margin-bottom: 15px;
+    color: #287F91;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .home h1 {
-font-size: 52px;
-color: #383044;
-margin-bottom: 15px;
+    font-size: 52px;
+    color: #183F4A;
+    margin-bottom: 15px;
 }
 
 .home h2 {
-font-size: 28px;
-color: #8065A8;
-margin-bottom: 15px;
+    font-size: 28px;
+    color: #287F91;
+    margin-bottom: 15px;
 }
 
 .home p {
-font-size: 17px;
-line-height: 1.8;
-color: #706A7D;
-margin-bottom: 25px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #45636C;
+    margin-bottom: 25px;
 }
 
 .btn {
-display: inline-block;
-background: #9678B8;
-color: white;
-padding: 14px 28px;
-border-radius: 30px;
-text-decoration: none;
-font-weight: bold;
-transition: 0.3s;
+    display: inline-block;
+    background: linear-gradient(135deg, #287F91, #45A9BA);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 6px 18px rgba(40,127,145,0.25);
 }
 
 .btn:hover {
-background: #8065A8;
-transform: translateY(-5px);
-box-shadow: 0 8px 20px rgba(128, 101, 168, 0.2);
+    background: #26788A;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(40,127,145,0.35);
 }
 
 @keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
 
-from {
-opacity: 0;
-transform: translateY(40px);
-}
-
-to {
-opacity: 1;
-transform: translateY(0);
-}
-
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 600px) {
+    .home {
+        padding: 30px 7%;
+    }
 
-.home {
-padding: 30px 7%;
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .home h2 {
+        font-size: 23px;
+    }
 }
-
-.home h1 {
-font-size: 36px;
-}
-
-.home h2 {
-font-size: 23px;
-}
-
-.home h3 {
-font-size: 20px;
-}
-
-.home p {
-font-size: 15px;
-}
-
-}
-
 </style>
 </head>
 
@@ -120,27 +107,27 @@ font-size: 15px;
 
 <section class="home">
 
-<div class="home-content">
+    <div class="home-content">
 
-<h3>Hello, Welcome to My Portfolio!</h3>
+        <h3>Hello, Welcome to My Portfolio!</h3>
 
-<h1>I'm Samruddhi Vitthal Nikam</h1>
+        <h1>I'm Samruddhi Vitthal Nikam</h1>
 
-<h2>Web Page Designer</h2>
+        <h2>Web Page Developer</h2>
 
-<p>
-I am a Computer Engineering Diploma student at Vidyalankar Polytechnic, passionate about web designing and modern technologies.
+        <p>
+            I am a Computer Engineering Diploma student
+            passionate about web designing and creating
+            attractive, user-friendly websites using HTML
+            and CSS. I am always interested in learning
+            new technologies and improving my technical skills.
+        </p>
 
-I enjoy creating attractive, responsive, and user-friendly web pages using HTML and CSS. I have basic computer knowledge, good communication skills, and an interest in designing posters and layouts using Canva.
+        <a href="file:///C:/Users/Admin/Desktop/PORFOLIO.html" class="btn">
+            Explore My Portfolio
+        </a>
 
-My goal is to build a successful career as a Web Page Designer by learning modern web technologies and creating functional and visually appealing websites.
-</p>
-
-<a href="file:///C:/Users/Admin/Desktop/portfolio.html" class="btn">
-Explore My Portfolio
-</a>
-
-</div>
+    </div>
 
 </section>
 
